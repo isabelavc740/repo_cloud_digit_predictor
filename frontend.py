@@ -47,7 +47,7 @@ def preprocess_image(image: Image.Image) -> dict:
 
 # URL del endpoint del modelo en Azure
 
-AZURE_ENDPOINT = os.getenv("AZURE_ENDPOINT","http://fc1d22e3-b5e6-4b41-ade7-25ac40329b5f.eastus2.azurecontainer.io/score")
+AZURE_ENDPOINT = os.getenv("AZURE_ENDPOINT","http://ca1aad8c-a005-4d3c-af39-25e6b9e95148.eastus.azurecontainer.io/score")
 
 # Botón para realizar la predicción
 if st.button("Predecir"):
